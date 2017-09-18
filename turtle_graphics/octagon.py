@@ -1,0 +1,21 @@
+from turtle import *
+
+down()
+forward(100)
+right(-45)
+forward(100)
+right(-45)
+forward(100)
+right(-45)
+forward(100)
+right(-45)
+forward(100)
+right(-45)
+forward(100)
+right(-45)
+forward(100)
+right(-45)
+forward(100)
+right(-45)
+
+mainloop()

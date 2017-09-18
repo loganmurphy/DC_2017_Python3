@@ -10,4 +10,6 @@ while True:
         tries += 1
     else:
         break
+
+print("Your number is ", secret_number)
 print("It took the computer {} tries.".format(tries))
