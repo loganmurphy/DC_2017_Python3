@@ -8,7 +8,11 @@ while True:
     if(computer_guess != secret_number):
         computer_guess = (random.randrange(0, 100, 1))
         tries += 1
+        print(computer_guess)
+        input("Is this your number? ")
     else:
+        print(computer_guess)
+        input("Is this your number? ")
         break
 
 print("Your number is ", secret_number)
