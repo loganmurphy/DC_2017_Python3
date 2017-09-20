@@ -32,13 +32,13 @@ while True:
 # If they choose to set an entry, you will prompt them for the person's name and the person's phone number,
     elif user_choice == 2:
         name = input("Name: ").capitalize()
-        contacts[name] = {'phone': None, 'email': None, 'URL': None}
+        contacts[name] = {"phone": None, "email": None, "URL": None}
         number = input("Number: ")
         contacts[name]['phone'] = number
         more_info1 = input("Do you want to add an email address? ")
         if more_info1.lower() == "yes":
             email = input("email: ")
-            contacts[name]['email'] = email
+            contacts[name]["email"] = email
         more_info2 = input("Do you want to add a website? ")
         if more_info2.lower() == "yes":
             url = input("URL: ")
