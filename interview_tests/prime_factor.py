@@ -18,11 +18,10 @@ for i in range(2, max_num + 1):
 		# print(i)
 		pass
 # print(known_primes)
-
+# The computer can't calculate the answer.
 prime_factors = []
 total_primes = len(known_primes)
-
+largest_prime_factor = prime_factors[-1]
 for i in range(0, total_primes):
 	if max_num % known_primes[i] == 0:
 		prime_factors.append(known_primes[i])
-print(prime_factors)
