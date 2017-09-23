@@ -1,0 +1,44 @@
+.top {
+  background-color: purple;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.left {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 20%;
+  height: 80%;
+}
+
+.middle {
+  background-color: red;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  width: 60%;
+  height: 80%;
+}
+
+.right {
+  background-color: green;
+  position: absolute;
+  left: 80%;
+  top: 10%;
+  width: 20%;
+  height: 80%;
+}
+
+.bottom {
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  top: 90%;
+  width: 100%;
+  height: 10%;
+}

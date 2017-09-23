@@ -1,0 +1,80 @@
+.top-left {
+  background-color: purple;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 33.33%;
+  height: 33.33%
+}
+
+.top-middle {
+  background-color: yellow;
+  position: absolute;
+  left: 33.33%;
+  top: 0;
+  width: 33.33%;
+  height: 33.33%
+}
+
+.top-right {
+  background-color: green;
+  position: absolute;
+  left: 66.66%;
+  top: 0;
+  width: 33.33%;
+  height: 33.33%
+}
+
+.middle-left {
+  background-color: green;
+  position: absolute;
+  left: 0;
+  top: 33.33%;
+  width: 33.33%;
+  height: 33.33%
+}
+
+.middle-middle {
+  background-color: purple;
+  position: absolute;
+  left: 33.33%;
+  top: 33.33%;
+  width: 33.33%;
+  height: 33.33%
+}
+
+.middle-right {
+  background-color: yellow;
+  position: absolute;
+  left: 66.66%;
+  top: 33.33%;
+  width: 33.33%;
+  height: 33.33%
+}
+
+.bottom-left {
+  background-color: purple;
+  position: absolute;
+  left: 0;
+  top: 66.66%;
+  width: 33.33%;
+  height: 33.33%
+}
+
+.bottom-middle {
+  background-color: yellow;
+  position: absolute;
+  left: 33.33%;
+  top: 66.66%;
+  width: 33.33%;
+  height: 33.33%
+}
+
+.bottom-right {
+  background-color: green;
+  position: absolute;
+  left: 66.66%;
+  top: 66.66%;
+  width: 33.33%;
+  height: 33.33%
+}
