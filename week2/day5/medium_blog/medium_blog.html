@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="medium_blog.css">
+    <meta charset="UTF-8">
+  </head>
+    <header>
+        <img class="across" src="menu_bar.png">
+    </header>
+  <body>
+    <img class="top" src="blogger.png">
+    <div>
+      <h1>Introducing Apex Ping</h1>
+    </div>
+    <div class = "first">
+        <p>
+        I’d like to introduce <a href="https://apex.sh/ping/">Apex Ping!</a> A minimalistic,
+        but powerful uptime & performance monitoring service for websites and APIs.
+        In this post I’ll cover features of Apex Ping, why I chose to build it first, and a
+        few things I learned in the process. In future posts I’ll be detailing the implementation
+        for anyone who is curious.
+      </p>
+    </div>
+    <div>
+        <p>
+        I soft-launched Ping about a month ago, built almost 100% on AWS Lambda, with 500 users
+        it has already detected over a million errors, and performed over 25 million checks.
+        Big thanks to the early adopters who have checked it out!
+      </p>
+    </div>
+    <img class="across" src="middle.png">
+    <h2>
+      The product
+    </h2>
+    <p>
+      I’ve seen first-hand how embarrassing it can be when customers
+      find out your product is having issues before you do, naturally this
+      can translate to customers bailing on your product. Ensuring your site,
+      app, or API is stable and performant is critical.
+    </p>
+    <p>
+      Apex Ping helps by making sure your team is notified when there’s a performance
+      regression, or when your end-point is down or unresponsive. Often people rely on
+      “it works for me”, but Apex Ping’s reporting can help uncover the full story.
+    </p>
+    <h3>
+      Powerful monitoring
+    </h3>
+    <p>
+      Unlike some other uptime monitoring services, which only support HEAD requests, Apex Ping
+      support header fields and bodies as well. This allows you to test APIs, caching behaviour,
+      and serving time, as well as the typical connection latency.
+    </p>
+    <p>
+      The checks listing displays the uptime, mean response, Apdex score, and Adpex score throughout the day,
+      week, or month. The Apdex score generalizes the user experience, summarizing response time satisfaction
+      and error responses.
+    </p>
+    <img class="centered" src="tj_blog_img2.png">
+    <p class="description">
+      Checks overview
+    </p>
+    <h3>
+      Global checks
+    </h3>
+    <p>
+      Requests or “checks” are performed from a number of selectable PoPs (Point of Presence), giving you a glance
+      at the customer experience all over the world. Hovering a PoP provides you with the breakdown, and coloring
+      indicates their relative health so you can instantly see if a region’s availability or performance is degraded.
+    </p>
+    <img class="centered" src="tj_blog_img3.png">
+    <p class="description">
+      Geographical view
+    </p>
+    <h3>
+      Latency distribution
+    </h3>
+    <p>
+      When latency is a reflection of the user-experience, it’s important not to ignore the outliers. The Latency view
+      provides you with an intuitive look at distribution throughout the selected time period, where the intensity of
+      the heatmap represents the number of check’s within the given duration.
+    </p>
+    <img class="centered" src="tj_blog_img4.png">
+    <p class="description">
+      Latency heatmap
+    </p>
+    <h3>
+      Errors & Apdex
+    </h3>
+    <p>
+      The Apdex (Application Performance Index) score quantifies the user-experience based on a configured target latency.
+      It effectively lets you know how far you are from hitting your mark, you should strive for a perfect 1.0!
+    </p>
+    <img class="centered" src="tj_blog_img5.png">
+    <p class="description">
+      Apdex & Errors timeseries
+    </p>
+    <h3>
+      Timings
+    </h3>
+    <p>
+      Requests are comprised of several components such as DNS lookup, TCP connection, TLS handshake, followed by the response
+      itself. If you’re experiencing performance issues the Timings view can help you out, showing you the distribution of each component.
+    </p>
+    <img class="centered" src="tj_blog_img1.png">
+    <p class="description">
+      Connection timing histograms
+    </p>
+    <h3>
+      Flexible alerting
+    </h3>
+    <p>
+      Apex Ping’s alerting lets you create alerts for downtime, latency, and regressions. You can receive alerts via email, webhook,
+      or Slack, with more to come!
+    </p>
+  </body>
+</html>

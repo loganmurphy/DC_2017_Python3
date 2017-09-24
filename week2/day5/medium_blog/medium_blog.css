@@ -1,0 +1,77 @@
+h1 {
+  width:700px;
+  display: block;
+  margin: 0 auto 10px auto;
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.04;
+  letter-spacing: -.028em;
+}
+h2 {
+  width:700px;
+  margin: 100px auto 10px auto;
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.04;
+  letter-spacing: -.028em;
+}
+h3 {
+  width:700px;
+  margin: 40px auto 10px auto;
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.04;
+  letter-spacing: -.028em;
+}
+
+.across {
+  width: 100%;
+}
+.top {
+  top: 10%;
+  margin-left: 2%;
+  width: 100%;
+}
+
+a {
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
+
+p {
+  display: block;
+  margin: 0 auto 40px auto;
+  width:700px;
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
+
+.description {
+  text-align: center;
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  color: rgba(0,0,0,.6);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.centered {
+  display: block;
+  margin: 0 auto;
+  width: 698px;
+}
