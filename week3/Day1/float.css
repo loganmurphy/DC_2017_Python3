@@ -1,0 +1,26 @@
+
+.col1 {
+  width: 300px;
+  height: 600px;
+  background-color: green;
+  float: left;
+  clear: both;
+}
+
+.col2 {
+  width: calc(100% - 300px);
+  height: 600px;
+  background-color: blue;
+  float: right;
+}
+
+header {
+  background-color: yellow;
+  height: 100px;
+}
+
+footer {
+  background-color: red;
+  height: 100px;
+  margin-top: 600px;
+}

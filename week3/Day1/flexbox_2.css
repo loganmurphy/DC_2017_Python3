@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width:100%;
+}
+
+header {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  background-color: orange;
+}
+
+footer {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  background-color: purple;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  display: flex;
+  width: 300px;
+  background-color: yellow;
+  padding: 0 2.5rem 0 1rem;
+
+}
+
+.right{
+  display: flex;
+  width: calc(100% - 300px);
+  background-color: green;
+  padding: 0 1rem 0 1rem;
+
+}
