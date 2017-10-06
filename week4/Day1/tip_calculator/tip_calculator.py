@@ -10,15 +10,15 @@ class TipCalculator(tornado.web.RequestHandler):
   def post(self):
       bill = self.get_body_argument('bill')
       service = self.get_body_argument('service')
-
       if bill[0] == '$':
          tip = int(bill[1:]) * float(service)
          self.write("Your tip should be ${}".format(tip))
       elif bill[0]  in ('1234567890'):
           tip = int(bill) * float(service)
           self.write("Your tip should be ${}".format(tip))
+          tip2 = tip
       else:
-         self.write("Invalid input")
+          self.write("Invalid input")
 
   def get(self):
     self.set_header(
